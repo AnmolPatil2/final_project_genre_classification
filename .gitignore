@@ -1,0 +1,27 @@
+# Ignore environment and build folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+venv/
+ENV/
+env/
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Ignore CSV data files
+*.csv
+
+# Ignore logs (optional)
+*.log
+
+# Ignore heavy files
+*.pt
+*.pkl
+*.npy
+
+# Ignore everything in the data folder
+data/

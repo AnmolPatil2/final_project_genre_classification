@@ -1,0 +1,94 @@
+{
+  "genre_counts": {
+    "Drama": 7526,
+    "Comedy": 5139,
+    "Thriller": 3814,
+    "Action": 3565,
+    "Romance": 2824,
+    "Adventure": 2481,
+    "Horror": 2422,
+    "Crime": 2272,
+    "Science Fiction": 1737,
+    "Fantasy": 1689,
+    "Family": 1633,
+    "Animation": 1583,
+    "Mystery": 1382,
+    "History": 1144,
+    "Documentary": 1003,
+    "War": 969,
+    "Music": 932,
+    "Western": 684,
+    "TV Movie": 305
+  },
+  "num_genres": 19,
+  "avg_genres_per_movie": 2.4914166811166987,
+  "top_combos": [
+    {
+      "genres": [
+        "Drama"
+      ],
+      "count": 1072
+    },
+    {
+      "genres": [
+        "Comedy"
+      ],
+      "count": 780
+    },
+    {
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "count": 719
+    },
+    {
+      "genres": [
+        "Documentary"
+      ],
+      "count": 587
+    },
+    {
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "count": 438
+    },
+    {
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "count": 423
+    },
+    {
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "count": 380
+    },
+    {
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "count": 346
+    },
+    {
+      "genres": [
+        "Horror"
+      ],
+      "count": 341
+    },
+    {
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "count": 281
+    }
+  ]
+}

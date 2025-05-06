@@ -1,0 +1,36 @@
+{
+  "embedding_dim": 300,
+  "hidden_dim": 256,
+  "attention_dim": 256,
+  "n_layers": 2,
+  "bidirectional": true,
+  "dropout": 0.5,
+  "vocab_size": 10000,
+  "n_genres": 10,
+  "genres": [
+    "Drama",
+    "Comedy",
+    "Thriller",
+    "Action",
+    "Romance",
+    "Adventure",
+    "Horror",
+    "Crime",
+    "Science Fiction",
+    "Fantasy"
+  ],
+  "best_val_f1": 0.5033472968624496,
+  "test_f1": 0.5541869227009609,
+  "optimal_thresholds": {
+    "Drama": 0.20809699594974518,
+    "Comedy": 0.10640331357717514,
+    "Thriller": 0.13582026958465576,
+    "Action": 0.24277526140213013,
+    "Romance": 0.3953668773174286,
+    "Adventure": 0.16599783301353455,
+    "Horror": 0.23281051218509674,
+    "Crime": 0.6239170432090759,
+    "Science Fiction": 0.5612926483154297,
+    "Fantasy": 0.1511789709329605
+  }
+}

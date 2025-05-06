@@ -1,0 +1,20 @@
+{
+    "dataset_stats": {
+        "total_movies": 17301,
+        "total_genres": 19,
+        "top_genre": "Drama",
+        "top_genre_count": 7526,
+        "top_genre_percentage": 43.500375700826545
+    },
+    "overview_stats": {
+        "avg_length": 269.8368302410265,
+        "max_length": 1000,
+        "min_length": 50
+    },
+    "genre_stats": {
+        "avg_genres_per_movie": 2.4914166811166987,
+        "max_genres_per_movie": 9,
+        "single_genre_percentage": 19.67516328535923,
+        "multi_genre_percentage": 80.32483671464077
+    }
+}

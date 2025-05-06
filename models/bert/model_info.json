@@ -1,0 +1,49 @@
+{
+  "max_length": 200,
+  "batch_size": 16,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.01,
+  "dropout": 0.4,
+  "n_epochs": 10,
+  "scheduler_type": "linear_warmup",
+  "use_focal_loss": true,
+  "focal_gamma": 2.0,
+  "use_dynamic_thresholds": true,
+  "use_balanced_sampling": true,
+  "class_thresholds": {
+    "Group 1": 0.40000000000000013,
+    "Group 2": 0.4500000000000001,
+    "Group 3": 0.4500000000000001,
+    "Group 4": 0.4500000000000001,
+    "Group 5": 0.4500000000000001
+  },
+  "freeze_bert_layers": 8,
+  "n_classes": 5,
+  "num_features": 5,
+  "feature_names": [
+    "vote_average",
+    "title_sentiment",
+    "title_length",
+    "overview_length",
+    "overview_sentiment"
+  ],
+  "feature_importance": {
+    "vote_average": 0.19156670570373535,
+    "title_sentiment": 0.19923345744609833,
+    "title_length": 0.19714295864105225,
+    "overview_length": 0.20806090533733368,
+    "overview_sentiment": 0.20399592816829681
+  },
+  "best_val_macro_f1": 0.7402219710824125,
+  "test_macro_f1": 0.7375423795627546,
+  "test_micro_f1": 0.737150370547454,
+  "test_weighted_f1": 0.73800623998357,
+  "class_weighting": "Applied",
+  "per_class_f1": {
+    "Group 1": 0.7174721189591078,
+    "Group 2": 0.718741219443664,
+    "Group 3": 0.7617107942973523,
+    "Group 4": 0.7772087067861716,
+    "Group 5": 0.7125790583274771
+  }
+}

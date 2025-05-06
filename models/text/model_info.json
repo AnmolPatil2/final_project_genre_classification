@@ -1,0 +1,11 @@
+{
+  "embedding_dim": 300,
+  "hidden_dim": 256,
+  "n_layers": 2,
+  "bidirectional": true,
+  "dropout": 0.5,
+  "vocab_size": 10000,
+  "n_classes": 19,
+  "best_val_acc": 0.3418880664720768,
+  "test_acc": 0.3319359756097561
+}

@@ -1,0 +1,23 @@
+{
+  "precision": {
+    "Group 1": 0.0,
+    "Group 2": 0.0,
+    "Group 3": 0.0,
+    "Group 4": 0.0,
+    "Group 5": 0.0
+  },
+  "recall": {
+    "Group 1": 0.0,
+    "Group 2": 0.0,
+    "Group 3": 0.0,
+    "Group 4": 0.0,
+    "Group 5": 0.0
+  },
+  "f1": {
+    "Group 1": 0.0,
+    "Group 2": 0.0,
+    "Group 3": 0.0,
+    "Group 4": 0.0,
+    "Group 5": 0.0
+  }
+}

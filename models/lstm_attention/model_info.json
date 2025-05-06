@@ -1,0 +1,13 @@
+{
+  "embedding_dim": 300,
+  "hidden_dim": 256,
+  "attention_dim": 256,
+  "n_layers": 2,
+  "bidirectional": true,
+  "dropout": 0.5,
+  "vocab_size": 15000,
+  "num_groups": 5,
+  "freeze_embeddings": true,
+  "best_val_f1": 0.6387966968861362,
+  "test_f1": 0.6522885531120617
+}
